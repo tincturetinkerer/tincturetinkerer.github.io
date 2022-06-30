@@ -5,7 +5,6 @@ const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 module.exports = {
   entry: {
     index: './src/index.js',
-    print: './src/print.js',
   },
   plugins: [
     new FaviconsWebpackPlugin('src/logo.jpg'),

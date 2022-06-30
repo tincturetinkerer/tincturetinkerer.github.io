@@ -1,19 +1,18 @@
 import _ from 'lodash';
 import "./style.scss";
-import printMe from './print.js';
+import potionImage from './logo.jpg'
 
 function component() {
     const element = document.createElement('div');
-    const btn = document.createElement('button');
 
     element.innerHTML = 'Tincture Tinkerer!';
-    
-    btn.innerHTML = 'Click me and check the console!';
-    btn.onclick = printMe;
-  
-    element.appendChild(btn);
+
+    const heroBanner = new Image();
+    heroBanner.src = potionImage;
+
+    element.appendChild(heroBanner);
   
     return element;
   }
   
-  document.body.appendChild(component());
+  document.querySelector('.main').appendChild(component());
