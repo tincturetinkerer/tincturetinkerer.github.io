@@ -1,4 +1,4 @@
-$body-color: blue;
+$body-color: black;
 
 @font-face {
   font-family: 'Crimson Text';
@@ -9,6 +9,5 @@ $body-color: blue;
 
 .hello {
   color: $body-color;
-  background: url('./icon.png');
   font-family: 'Crimson Text', serif;
 }
