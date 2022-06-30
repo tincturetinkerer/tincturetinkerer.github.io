@@ -8,7 +8,7 @@ module.exports = {
     print: './src/print.js',
   },
   plugins: [
-    new FaviconsWebpackPlugin('src/logo.png'),
+    new FaviconsWebpackPlugin('src/logo.jpg'),
     new HtmlWebpackPlugin({
       title: 'Tincture Tinkerer',
       template: 'src/index.html'
