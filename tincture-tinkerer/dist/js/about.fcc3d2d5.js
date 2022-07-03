@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktincture_tinkerer"]=self["webpackChunktincture_tinkerer"]||[]).push([[443],{7381:function(n,t,e){e.r(t),e.d(t,{default:function(){return k}});var r=e(3396);const u={class:"about"},i=(0,r._)("h1",null,"This is an about page",-1),a=[i];function c(n,t){return(0,r.wg)(),(0,r.iD)("div",u,a)}var s=e(89);const o={},f=(0,s.Z)(o,[["render",c]]);var k=f}}]);
+//# sourceMappingURL=about.fcc3d2d5.js.map
