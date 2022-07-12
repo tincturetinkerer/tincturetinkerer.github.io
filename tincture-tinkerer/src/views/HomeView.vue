@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Tincture Tinkerer logo" src="../assets/logo.jpg" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld msg="Tincture Tinkerer" />
   </div>
 </template>
 
